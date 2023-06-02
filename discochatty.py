@@ -26,6 +26,6 @@ async def chat(ctx, *, message, max_tokens=1500, temperature=1):
             }
         ]
     )
-    await ctx.send(response['choices'][0]['message']['content'])
+    await ctx.reply(response['choices'][0]['message']['content'])
 
 bot.run('<Discord bot token>')
