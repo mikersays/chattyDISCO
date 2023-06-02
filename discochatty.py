@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import openai
 
-openai.api_key = '<openAI API Key'
+openai.api_key = '<openAI API Key>'
 
 intents = discord.Intents.all()  # Enables all intents
 bot = commands.Bot(command_prefix='!', intents=intents)
