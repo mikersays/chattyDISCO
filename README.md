@@ -13,6 +13,7 @@ To run this bot, you need:
 - openai Python library
 - OpenAI API key
 - Discord bot token
+- Enable Discord bot intents
 
 ## Installation
 1. Make sure Python 3.6+ is installed. If not, download it from the official Python website.
