@@ -30,7 +30,7 @@ To run this bot, you need:
     git clone https://github.com/yourusername/discord_gpt-4_bot.git
     ```
 
-4. Enter your OpenAI API key and Discord bot token in the respective placeholder fields in the code.
+4. Enter your OpenAI API key and Discord bot token in the respective placeholder fields (e.g. `<openAI API key>`) in the code.
 
 ## Usage
 1. Start the bot:
