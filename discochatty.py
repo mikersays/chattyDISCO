@@ -8,9 +8,13 @@ intents = discord.Intents.all()  # Enables all intents
 bot = commands.Bot(command_prefix='!', intents=intents)
 
 @bot.command()
-async def chat(ctx, *, message):
+async def chat(ctx, *, message, max_tokens=1500, temperature=1):
     response = openai.ChatCompletion.create(
-      model="gpt-4", # assuming that the GPT-4 model is named "gpt-4"
+      model="gpt-4",
+      max_tokens=max_tokens,
+      temperature=temperature,
+      n=1,
+      top_p=1,
       messages=[
             {
                 "role": "system",
