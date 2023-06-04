@@ -21,7 +21,7 @@ To run this bot, you need:
 2. Install the required Python libraries with pip:
 
     ```bash
-    pip install discord.py openai
+    pip3 install discord.py openai
     ```
 
 3. Clone this repository:
@@ -36,7 +36,7 @@ To run this bot, you need:
 1. Start the bot:
 
     ```bash
-    python discord_gpt-4_bot.py
+    python3 discochatty .py
     ```
 
 2. Once the bot is running and connected to your Discord server, you can use the command `!chat` followed by your message to interact with the AI. For example:
