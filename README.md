@@ -36,7 +36,7 @@ To run this bot, you need:
 1. Start the bot:
 
     ```bash
-    python3 discochatty .py
+    python3 discochatty.py
     ```
 
 2. Once the bot is running and connected to your Discord server, you can use the command `!chat` followed by your message to interact with the AI. For example:
