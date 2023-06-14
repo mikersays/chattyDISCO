@@ -12,7 +12,7 @@ async def chat(ctx, *, message, max_tokens=1500, temperature=1):
     for _ in range(2):  # two attempts in total: one original and one retry
         try:
             response = openai.ChatCompletion.create(
-                model="gpt-4",
+                model="gpt-4-0613",
                 max_tokens=max_tokens,
                 temperature=temperature,
                 n=1,
