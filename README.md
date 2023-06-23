@@ -27,7 +27,7 @@ To run this bot, you need:
 3. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/discord_gpt-4_bot.git
+    git clone https://github.com/mikersays/discochatty.git
     ```
 
 4. Enter your OpenAI API key and Discord bot token in the respective placeholder fields (e.g. `<openAI API key>`) in the code.
