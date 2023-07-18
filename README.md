@@ -27,7 +27,7 @@ To run this bot, you need:
 3. Clone this repository:
 
     ```bash
-    git clone https://github.com/mikersays/discochatty.git
+    git clone https://github.com/mikersays/chattydisco.git
     ```
 
 4. Enter your OpenAI API key and Discord bot token in the respective placeholder fields (e.g. `<openAI API key>`) in the code.
@@ -36,7 +36,7 @@ To run this bot, you need:
 1. Start the bot:
 
     ```bash
-    python3 discochatty.py
+    python3 chattydisco.py
     ```
 
 2. Once the bot is running and connected to your Discord server, you can use the command `!chat` followed by your message to interact with the AI. For example:
